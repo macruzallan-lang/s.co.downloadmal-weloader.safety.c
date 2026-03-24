@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Download</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            background-color: #00ff88;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #00cc6a;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>قم بتنزيله لأنني أريد ذلك، أسرع!</h1>
+
+    <button onclick="download()">Download</button>
+
+    <script>
+        function download() {
+            window.location.href = "https://www.youtube.com/watch?v=eIDZ6Q7qB64";
+        }
+    </script>
+
+</body>
+</html>
